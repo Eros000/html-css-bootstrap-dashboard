@@ -59,3 +59,24 @@ MAIN
 
 }
 
+.my-bg-main{
+    background-color: #E7E8E8;
+}
+
+.my-img-avatar{
+    width: 30px;
+}
+
+.my-button-size{
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.my-font-size{
+    font-size: 13px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
