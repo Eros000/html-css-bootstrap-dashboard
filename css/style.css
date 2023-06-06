@@ -54,3 +54,8 @@ MAIN
     height: calc(100vh - 60px);
 }
 
+.my-offcanvas-width{
+    width: 800px !important;
+
+}
+
