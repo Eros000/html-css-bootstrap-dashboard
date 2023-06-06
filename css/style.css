@@ -10,7 +10,7 @@
 
 
 /* 
-    HEADER
+HEADER
 */
 
 header{
@@ -28,8 +28,13 @@ header{
 
 
 /* 
-    ASIDE
+ASIDE
 */
+
+
+.my-bg-aside{
+    background-color: #051E34;
+}
 
 
 
@@ -37,5 +42,9 @@ header{
 
 
 /* 
-    MAIN
+MAIN
 */
+
+.my-main{
+    height: calc(100vh - 60px);
+}
