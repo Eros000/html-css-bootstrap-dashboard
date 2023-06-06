@@ -36,7 +36,9 @@
 
                     <div class="col-auto">
     
-                        <img class="pt-3" src="img/logo.svg" alt="logo">
+                        <img class="pt-md-3 d-none d-md-block" src="img/logo.svg" alt="logo">
+
+                        <img class="pt-1 d-block d-md-none my-logo-mobile" src="img/mobile-logo.png" alt="logo">
     
                     </div>
     
@@ -61,9 +63,9 @@
     
                     <div class="col-auto d-flex pt-3">
 
-                        <i class="bi bi-list-ul pe-3"></i>
-                        <i class="bi bi-question-circle-fill pe-3"></i>
-                        <i class="bi bi-three-dots-vertical pe-3"></i>
+                        <i class="bi bi-list-ul pe-3 d-none d-md-block"></i>
+                        <i class="bi bi-question-circle-fill pe-3 d-none d-md-block"></i>
+                        <i class="bi bi-three-dots-vertical pe-3 d-none d-md-block"></i>
 
                         <div class="dropdown">
 
@@ -106,7 +108,7 @@
                                 <button type="button" class="btn text-white">
                                     
                                     <i class="fa-solid fa-house pe-2"></i>
-                                    <span calss="d-inline-block" >Home</span>
+                                    <span class="d-md-inline-block d-none">Home</span>
     
                                 </button>
     
@@ -117,7 +119,7 @@
                                 <button type="button" class="btn text-white">
                                     
                                     <i class="fa-solid fa-chart-simple pe-3"></i>
-                                    <span calss="d-inline-block" >Stats</span>
+                                    <span class="d-md-inline-block d-none">Stats</span>
     
                                 </button>
     
@@ -128,7 +130,7 @@
                                 <button type="button" class="btn text-white">
                                     
                                     <i class="fa-solid fa-signal pe-2"></i>
-                                    <span calss="d-inline-block" >Signals</span>
+                                    <span class="d-md-inline-block d-none">Signals</span>
     
                                 </button>
                                 
@@ -143,7 +145,7 @@
                                 <button type="button" class="btn text-white">
                                     
                                     <i class="fa-solid fa-gear pe-2"></i>
-                                    <span calss="d-inline-block" >Admin</span>
+                                    <span class="d-md-inline-block d-none">Admin</span>
     
                                 </button>
                                 
@@ -157,7 +159,169 @@
 
                     <!--sezione main-->
 
-                    <div class="col">
+                    <div class="col ps-0 my-main overflow-y-auto">
+
+                        <!--header del main-->
+
+                        <section>
+                            
+                            <div class="container-fluid bg-primary">
+
+                                <div class="row">
+
+                                    <div class="col-sm-6">
+                                        
+                                        <div class="text-white mt-4">
+
+                                            <h2 class="d-inline-block align-middle">
+                                                Boolean
+                                            </h2>
+
+                                            <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle">
+                                                
+                                                Piano blaze
+
+                                            </span>
+                                            
+
+                                        </div>
+
+
+                                        <div class="mb-3 d-flex">
+
+                                            <div>
+
+                                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle">
+                                                    
+                                                    3 app
+
+                                                </span>
+
+                                                <i class="fa-solid fa-angles-right align-middle text-white d-inline-block"></i>
+
+                                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-inline-block d-none">
+                                                    
+                                                    Boolean mobile app
+    
+                                                </span>
+    
+                                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-inline-block d-none">
+                                                    
+                                                    Boolean web app
+    
+                                                </span>
+    
+                                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-inline-block d-none">
+                                                    
+                                                    Boolean blog app
+    
+                                                </span>
+    
+                                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-none">
+                                                    
+                                                    +
+    
+                                                </span>
+
+                                            </div>
+
+                                            
+                                        </div>
+
+                                                
+                                            
+
+
+                                    </div>
+
+                                    <div class="col-sm-3">
+
+                                        <div class="text-white mt-4">
+
+                                            <div>
+
+                                                studenti online negli ultimi 30 minuti
+
+                                            </div>
+
+                                            <div class="fs-3">
+
+                                                125
+
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="col-sm-3">
+
+                                        <div class="mt-4">
+
+                                            <div class="text-white d-inline-block">
+
+                                                Nuovo Studente
+
+                                            </div>
+
+                                            <div class="d-inline-block ms-3">
+    
+                                                <button class="btn text-white border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                    
+                                                    +
+    
+                                                </button>
+    
+                                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    
+                                                    <div class="offcanvas-header">
+    
+                                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                                            
+                                                            Inserisci un nuovo studente
+                                                            
+                                                        </h5>
+    
+                                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+    
+                                                        </button>
+    
+                                                    </div>
+    
+                                                    <div class="offcanvas-body">
+                                                        ...
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        
+                                    </div>
+
+                                </div>
+                                    
+
+
+
+
+
+
+
+                            </div>
+
+                        </section>
+
+                        <!--main del main-->
+
+                        <section>
+
+                            
+
+                        </section>
+
+
 
 
                     </div>

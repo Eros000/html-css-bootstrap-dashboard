@@ -23,6 +23,11 @@ header{
     background-color: #F8F9FA;
 }
 
+.my-logo-mobile{
+    width: 50px;
+    
+}
+
 
 
 
@@ -48,3 +53,4 @@ MAIN
 .my-main{
     height: calc(100vh - 60px);
 }
+
